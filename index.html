@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <!-- tailwind elements package -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+    rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
+  <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        fontFamily: {
+          sans: ["Roboto", "sans-serif"],
+          body: ["Roboto", "sans-serif"],
+          mono: ["ui-monospace", "monospace"],
+        },
+      },
+      corePlugins: {
+        preflight: false,
+      },
+    };
+  </script>
+        <style>
+            /* Custom Scrollbar Styles */
+            ::-webkit-scrollbar {
+                width: 4px; /* Width of the vertical scrollbar */
+            }
+    
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1; /* Color of the track */
+            }
+    
+            ::-webkit-scrollbar-thumb {
+                background: #e2e2e2; /* Color of the thumb */
+                border-radius: 3px; /* Rounding the corners of the thumb */
+            }
+        </style>
+</head>
+
+<body class="bg-gray-50">
+<div  class="flex items-start justify-start ">
+    <!-- Dashboard satrt -->
+    <div class="w-2/12 px-1 bg-white shadow-md h-screen overflow-y-scroll sticky top-0 z-50">
+        <div class="flex items-center justify-start mt-2 mb-8 px-5 ">
+            <img class="w-10 rounded-xl" src="logo.PNG" alt="">
+            <h1 class="pl-2 text-xl font-sans text-black">Kajyian</h1>
+        </div>
+        <h2 class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-base font-sans   text-gray-500"><i class="mr-2 fa-regular fa-envelope-open"></i> <a href="#">Dashboards</a></h2> 
+        <h3 class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-base font-sans  text-gray-500 "><i class="mr-2 fa-brands fa-windows"></i> <a href="#">Operation</a></h3> 
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-tv"></i> <a href="#">Sessions</a> <i class="fa-solid fa-angle-right"></i></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-regular fa-calendar"></i> <a href="#">Schedule</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-tablet-screen-button"></i> <a href="#">Trials</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-chalkboard"></i> <a href="#">Courses</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3 text-base font-medium text-gray-500">Performance</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-handshake"></i> <a href="#">Compensation</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-chart-line"></i> <a href="#">Performance</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3 text-base font-sans font-medium text-gray-500 ">Sales</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-headset"></i> <a href="https://turkyyassin.github.io/page-1/">Leads</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-ban"></i> <a href="#">Suspended</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3  text-base font-sans font-medium text-gray-500 ">Students</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-list-ul"></i> <a href="https://turkyyassin.github.io/Student-List/">Student List</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-plus"></i> <a href="#">Add New</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3  text-base font-sans font-medium text-gray-500 ">Tutors</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-list-ul"></i> <a href="https://turkyyassin.github.io/Tutors-Lists/">Tuors List</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-regular fa-calendar"></i> <a href="#">Tuors Schedule</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-plus"></i> <a href="#">Add Tuors</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3  text-base font-sans font-medium text-gray-500">Support</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-list-ul"></i> <a href="#">Agent List</a></li> 
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3  text-base font-sans font-medium text-gray-500 ">Financial</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-regular fa-credit-card"></i> <a href="#">Tutors Payments</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-credit-card"></i> <a href="#">Students Payments</a> </li >
+        </ul>
+        <h3 class="ml-2 mr-2 mb-4 px-3  text-base font-sans font-medium text-gray-500 ">Administarmrtion</h3>
+        <ul>
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-brands fa-critical-role"></i> <a href="#">Roles</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-circle-exclamation"></i> <a href="#">Definitions</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-regular fa-comment"></i> <a href="#">Chat</a></li> 
+            <li class="transition-all rounded-xl hover:bg-gray-100 active:bg-blue-600 active:text-white py-2 ml-2 mr-2 mb-4 px-3 text-basetext-gray-500"><i class="mr-2 fa-solid fa-list-check"></i> <a href="#">Tasks</a></li> 
+        </ul>
+    </div>
+    <!-- dashboard END -->
+
+    <!-- Righ Sec Start -->
+    <div class="w-10/12">
+        <!-- Search Start -->
+        <div class="flex justify-between items-center p-4 bg-white sticky top-0 z-50 border-b-2">
+            <div class="flex items-center">
+                <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M16.8 11.1a5.7 5.7 0 10-11.4 0 5.7 5.7 0 0011.4 0z"></path></svg>
+                <input class="ml-2 p-2 w-24 border-none focus:outline-none" type="text" placeholder="Search">
+                <kbd class="ml-2 p-1 border rounded">⌘K</kbd>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-500 text-2xl"><i class="fa-solid fa-language"></i></button>
+                <button class="text-gray-500  text-2xl">☀</button>
+                <button class="text-gray-500"><i class="fa-solid fa-table-cells-large"></i></button>
+                <button class="relative text-gray-500">
+                    <i class="fa-regular fa-bell"></i>
+                    <span class="absolute top-0 right-0 inline-flex items-center justify-center px-1 py-1 text-xs font-bold leading-none rounded-full">•</span>
+                </button>
+                <a href="#"><img class="w-10 h-10 rounded-full" src="child.jpg" alt="Profile Picture"></a>
+            </div>
+        </div>
+        <!-- search END -->
+
+        <div class="my-3 mx-8 bg-white rounded shadow-lg border-4 border-gray-100 border-solid">
+            <nav class="text-gray-600 pl-4 bg-gray-100">
+                <span class=" text-sm">Courses</span> &gt;
+                <span class="text-blue-500 text-sm">Operations</span> &gt;
+                <span class="text-blue-500 text-sm">Courses</span>
+            </nav>
+        
+            <!-- Filters Section -->
+            <div class="bg-white p-4 rounded-lg mb-6 border-b-4">
+                <div class="flex justify-start items-center mb-2 border-b-2 pb-2">
+                    <div><button class="px-12 py-6 mr-12 border-2 hover:bg-blue-500 hover:text-white transition-all text-black rounded text-base font-sans   text-gray-500"></button></div>
+                    <div>
+                        <div>                    
+                            <button class="px-16 py-3 mr-7 bg-blue-200 text-blue-600 rounded text-base font-sans   text-gray-500">  </button>
+                            <button class="px-16 py-3 mr-7 bg-orange-100 text-orange-300 rounded text-base font-sans   text-gray-500">  </button>
+                            <button class="px-16 py-3 mr-7 bg-blue-100 text-blue-900 rounded text-base font-sans   text-gray-500"> </button>
+                            <button class="px-16 py-3 mr-7 bg-red-200 text-red-800 rounded text-base font-sans   text-gray-500"> </button>
+                    </div>
+                    <div>
+                            <button class="px-16 py-3 mr-7 bg-gray-300 text-black rounded text-base font-sans   text-gray-500">  </button>
+                            <button class="px-16 py-3 mr-7 bg-green-200 text-green-600 rounded text-base font-sans   text-gray-500"> </button>
+                            <button class="px-16 py-3 mr-7 bg-green-200 text-green-600 rounded text-base font-sans   text-gray-500"> </button>
+                            <button class="px-16 py-3 mr-7 bg-red-300 text-red-900 rounded text-base font-sans   text-gray-500">  </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="mt-1 flex justify-between">
+                    <button class="bg-white border border-gray-300 text-gray-600 px-4 py-1 text-sm rounded">Show</button>
+                    <div class="flex space-x-4">
+                        <button class="bg-white border border-gray-300 text-gray-600 px-4 py-1 text-sm rounded">Select Dates</button>
+                        <button class="bg-white border border-gray-300 text-gray-600 px-4 py-1 text-sm rounded">Select Course</button>
+                        <button class="bg-white border border-gray-300 text-gray-600 px-4 py-1 text-sm rounded">Select Payment</button>
+                        <button class="bg-white border border-gray-300 text-gray-600 px-4 py-1 text-sm rounded">Select Status</button>
+                    </div>
+                    <input type="text" placeholder="Search..." class="border border-gray-300 px-4 py-1 rounded">
+                </div>
+            </div>
+        
+            <!-- Courses Table -->
+            <div class="px-4">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-1 border-b">Id</th>
+                            <th class="px-4 py-1 border-b">Name</th>
+                            <th class="px-4 py-1 border-b">Course</th>
+                            <th class="px-4 py-1 border-b">Date</th>
+                            <th class="px-4 py-1 border-b">Sessions</th>
+                            <th class="px-4 py-1 border-b">Payment</th>
+                            <th class="px-4 py-1 border-b">Status</th>
+                            <th class="px-4 py-1 border-b">Credit</th>
+                            <th class="px-4 py-1 border-b"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
+                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
+                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
+                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
+                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
+                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
+                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
+                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
+                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
+                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="px-4 py-1 border-b text-sm">5404</td>
+                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
+                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b text-sm">
+                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+       
+        </div>
+    </div>
+    </body>
+
