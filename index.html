@@ -121,17 +121,17 @@
                 <a href="#"><img class="w-10 h-10 rounded-full" src="child.jpg" alt="Profile Picture"></a>
             </div>
         </div>
+        <nav class="text-gray-600 text-sm pl-6 bg-gray-100">
+            <span class=" text-sm">Courses</span> &gt;
+            <span class="text-blue-500 text-sm">Operations</span> &gt;
+            <span class="text-blue-500 text-sm">Courses</span>
+        </nav>
+    
         <!-- search END -->
 
-        <div class="my-3 mx-8 bg-white rounded shadow-lg border-4 border-gray-100 border-solid">
-            <nav class="text-gray-600 pl-4 bg-gray-100">
-                <span class=" text-sm">Courses</span> &gt;
-                <span class="text-blue-500 text-sm">Operations</span> &gt;
-                <span class="text-blue-500 text-sm">Courses</span>
-            </nav>
-        
+        <div class="my-3 mx-8 bg-white rounded shadow-lg border-8 border-gray-100 border-solid">
             <!-- Filters Section -->
-            <div class="bg-white p-4 rounded-lg mb-6 border-b-4">
+            <div class="bg-white p-4 border-b-8 border-gray-100">
                 <div class="flex justify-start items-center mb-2 border-b-2 pb-2">
                     <div><button class="px-12 py-6 mr-12 border-2 hover:bg-blue-500 hover:text-white transition-all text-black rounded text-base font-sans   text-gray-500"></button></div>
                     <div>
@@ -166,148 +166,307 @@
                 <table class="w-full text-left">
                     <thead>
                         <tr>
-                            <th class="px-4 py-1 border-b">Id</th>
-                            <th class="px-4 py-1 border-b">Name</th>
-                            <th class="px-4 py-1 border-b">Course</th>
-                            <th class="px-4 py-1 border-b">Date</th>
-                            <th class="px-4 py-1 border-b">Sessions</th>
-                            <th class="px-4 py-1 border-b">Payment</th>
-                            <th class="px-4 py-1 border-b">Status</th>
-                            <th class="px-4 py-1 border-b">Credit</th>
-                            <th class="px-4 py-1 border-b"></th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Id</th>
+                            <th class="px-14 py-1 border-b-4 font-medium text-sm">Name</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Course</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Date</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Sessions</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Payment</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Status</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm">Credit</th>
+                            <th class="px-4 py-1 border-b-4 font-medium text-sm"></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
-                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
-                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
-                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
-                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
-                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
-                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
-                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
-                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
-                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
-                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
-                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
-                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
-                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
-                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
-                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
-                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">4</td>
-                            <td class="px-4 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
-                            <td class="px-4 py-1 border-b text-sm">4 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
                         <tr class="hover:bg-gray-100">
-                            <td class="px-4 py-1 border-b text-sm">5404</td>
-                            <td class="px-4 py-1 border-b text-sm font-bold">saaraa yahyaa mohamed</td>
-                            <td class="px-4 py-1 border-b text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
-                            <td class="px-4 py-1 border-b text-sm">Sun 05 Jun 2022</td>
-                            <td class="px-4 py-1 border-b text-sm text-center">6</td>
-                            <td class="px-4 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
-                            <td class="px-2 py-1 border-b text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
-                            <td class="px-4 py-1 border-b text-sm">3 hr / 10 $</td>
-                            <td class="px-4 py-1 border-b text-sm">
-                                <button class="bg-blue-500 text-white px-2 py-1 rounded">+</button>
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
                             </td>
                         </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <div>saaraa yahyaa mohamed</div>
+                                <div>saaraa yahyaa mohamed</div>
+                            </td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">4</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Paid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-green-500"><span class="bg-green-100 text-green-300 px-4 py-1 rounded">Inprogress</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">4 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-1 border-b-2 text-sm"><div class="border-2 px-3 py-1 border-blue-300 rounded-md">5404</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm font-bold">saaraa yahyaa mohamed</td>
+                            <td class="px-4 py-1 border-b-2 text-sm"><span class="bg-pink-100 text-red-300 px-4 py-1 rounded">Quran</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">Sun 05 Jun 2022</td>
+                            <td class="px-8 py-1 border-b-2 text-sm text-center"><div class="border-2 px-1 py-1 border-blue-300 rounded-md">6</div></td>
+                            <td class="px-4 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-2 py-1 rounded">Unpaid</span></td>
+                            <td class="px-2 py-1 border-b-2 text-sm text-red-500"><span class="bg-red-100 text-red-300 px-8 py-1 rounded">Ended</span></td>
+                            <td class="px-4 py-1 border-b-2 text-sm">3 hr / 10 $</td>
+                            <td class="px-4 py-1 border-b-2 text-sm">
+                                <button class="bg-blue-500 text-white px-2 rounded-full">+</button>
+                            </td>
+                        </tr>
+                        
+                        
                     </tbody>
                 </table>
             </div>
